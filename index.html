@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI × Cloud Revolution - Invitation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+</head>
+
+<body>
+  <div class="noise-overlay"></div>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-inner">
+        <!-- Front Face -->
+        <div class="card-face card-front">
+          <canvas id="particle-canvas"></canvas>
+
+          <div class="grid-container">
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line vertical"></div>
+            <div class="grid-line vertical"></div>
+          </div>
+
+          <div class="logo">
+            <div class="circuit-icon"></div>
+            <span class="neon-text">Nexus</span>
+          </div>
+
+          <div class="card-content">
+            <h1 class="neon-text">Join the <span class="highlight">AI × Cloud</span> Revolution</h1>
+            <p class="sub-heading">You're invited to the digital frontier</p>
+
+            <div class="card-details">
+              <div class="detail-row">
+                <span class="detail-label">DATE</span>
+                <span class="detail-value">15 JUNE 2025</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">TIME</span>
+                <span class="detail-value">19:00 - 22:00</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">LOCATION</span>
+                <span class="detail-value">NEO-DIGITAL SPHERE</span>
+              </div>
+            </div>
+
+            <button id="flip-btn" class="neon-btn">VIEW DETAILS</button>
+          </div>
+
+          <div class="card-chip">
+            <div class="chip-line"></div>
+            <div class="chip-line"></div>
+            <div class="chip-line"></div>
+            <div class="chip-line"></div>
+          </div>
+
+          <div class="card-number">AI-2025-CLOUD-NEXUS</div>
+        </div>
+
+        <!-- Back Face -->
+        <div class="card-face card-back">
+          <div class="magnetic-strip"></div>
+
+          <div class="back-content">
+            <h2 class="neon-text">Event Details</h2>
+
+            <div class="back-details">
+              <p><strong>Host:</strong> Nexus Tech Alliance</p>
+              <p><strong>Featured:</strong> AI demos, Cloud architecture showcases, Neural net visualizations</p>
+              <p><strong>Dress Code:</strong> Tech-formal</p>
+              <p><strong>Address:</strong> Neo-Digital Sphere, Downtown Nexus</p>
+              <p><strong>Speakers:</strong> Dr. Elena Haze (AI Ethics), Kevin Quantum (Cloud Architecture), Maya Neural
+                (Augmented
+                Reality)</p>
+              <p><strong>Schedule:</strong></p>
+              <ul class="event-schedule">
+                <li><span class="time">19:00</span> Welcome Drinks & Networking</li>
+                <li><span class="time">19:30</span> Keynote: "The Future of AI × Cloud Integration"</li>
+                <li><span class="time">20:15</span> Interactive Demos & Exhibition</li>
+                <li><span class="time">21:30</span> Panel Discussion & Q&A</li>
+              </ul>
+            </div>
+
+            <form id="rsvp-form">
+              <h3 class="form-title neon-text">RSVP</h3>
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <select id="ticket-type">
+                  <option value="standard">Standard Entry</option>
+                  <option value="vip">VIP Access (+Demo Sessions)</option>
+                  <option value="virtual">Virtual Attendance</option>
+                </select>
+              </div>
+              <button type="submit" class="neon-btn submit-btn">CONFIRM</button>
+            </form>
+
+            <button id="flip-back" class="neon-btn back-btn">BACK</button>
+          </div>
+
+          <div class="security-code">
+            <div class="code-label">SECURITY CODE</div>
+            <div class="code">A1X5</div>
+          </div>
+
+          <div class="card-footer">
+            <span class="neon-text">Neural Networks × Cloud Computing × AI Revolution</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
